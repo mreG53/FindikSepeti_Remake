@@ -1,1 +1,85 @@
+# Bağımlılıklar #
+-----------------
+**/node_modules
+**/wwwroot/lib
+
+# Derleme ve yayımlama çıktıları #
+----------------------------------
+**/bin/
+**/obj/
+**/out/
+**/publish/
+
+# IDE ve araçlar için ayar dosyaları #
+--------------------------------------
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.dll.config
+*.pidb
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# Visual Studio Code #
+----------------------
+.vscode/
+
+# Visual Studio #
+-----------------
 .vs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.njsproj
+*.sln.docstates
+
+# Rider #
+---------
+.idea/
+
+# Windows görüntü dosyası yedeklemeleri #
+-----------------------------------------
+Thumbs.db
+ehthumbs.db
+
+# Folder config file #
+----------------------
+Desktop.ini
+
+# Recycle Bin #
+---------------
+$RECYCLE.BIN/
+
+# Windows Yapılandırma Dosyaları #
+----------------------------------
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Kısayolları #
+----------------------
+*.lnk
+
+# SQL Server dosyaları #
+-----------------------
+*.mdf
+*.ldf
+
+# Yapılandırma dosyaları #
+-------------------------
+appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+
+# Diğerleri #
+------------
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
