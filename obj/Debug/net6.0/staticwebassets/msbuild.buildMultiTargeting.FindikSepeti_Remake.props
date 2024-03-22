@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\FindikSepeti_Remake.props" />
+</Project>
