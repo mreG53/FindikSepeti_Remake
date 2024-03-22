@@ -6,7 +6,11 @@
 # Derleme ve yayımlama çıktıları #
 ----------------------------------
 **/bin/
+*/bin/
+/bin/
 **/obj/
+*/obj/
+/obj/
 **/out/
 **/publish/
 
