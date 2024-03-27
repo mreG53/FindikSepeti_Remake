@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FindikSepeti_Remake")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b40676c63fcc85e6a88f562729be24ee97f01759")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42de4dd9dbc1daee01927c39d45bafbba8ab5f8d")]
 [assembly: System.Reflection.AssemblyProductAttribute("FindikSepeti_Remake")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FindikSepeti_Remake")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
