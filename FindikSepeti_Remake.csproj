@@ -12,7 +12,7 @@
 	</ItemGroup>
 
 	<Target Name="Tailwind" BeforeTargets="Build">
-		<Exec Command="npm run css:build"/>
+		<Exec Command="npm run css:build" />
 	</Target>
 
   <ItemGroup>
@@ -23,6 +23,14 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+    <Folder Include="Utility\" />
+    <Folder Include="Views\company\" />
+    <Folder Include="Views\auths\" />
+    <Folder Include="Views\user\" />
   </ItemGroup>
 
 </Project>
