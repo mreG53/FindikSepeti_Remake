@@ -83,3 +83,8 @@ appsettings.Production.json
 project.lock.json
 .DS_Store
 *.pyc
+
+# Özel eklemeler #
+-------------------
+# Örneğin buraya özel dosya ve klasörlerinizi ekleyebilirsiniz
+# package-lock/
