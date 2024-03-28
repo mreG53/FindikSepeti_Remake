@@ -10,6 +10,8 @@
 **/obj/
 **/out/
 **/publish/
+/bin
+/obj
 
 # IDE ve araçlar için ayar dosyaları #
 --------------------------------------
