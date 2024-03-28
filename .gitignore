@@ -69,9 +69,9 @@ $RECYCLE.BIN/
 *.lnk
 
 # SQL Server dosyaları #
------------------------
-*.mdf
-*.ldf
+#-----------------------#
+#*.mdf#
+#*.ldf#
 
 # Yapılandırma dosyaları #
 -------------------------
