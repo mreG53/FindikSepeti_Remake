@@ -1,19 +1,66 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
-<div class="py-32">
-        <!-- Hero bölümü container'ı -->
-        <div class="container mx-auto flex flex-col items-start text-left">
-            <!-- Başlık -->
-            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 z-10">Hoş Geldiniz!</h1>
-            <!-- Açıklama -->
-            <p class="text-lg sm:text-xl lg:text-2xl mb-8 z-10">Uygulamanın harika özelliklerini keşfedin.</p>
-            <!-- Buton -->
-            <button class="bg-orange-800 hover:bg-orange-900 text-white font-bold py-2 px-4 rounded-full z-10">Başla</button>
-        </div>
-        <!-- Resim overlay -->
-        <div class="absolute inset-0"></div>
-        <!-- Arka plan resmi -->
-    <img style="height: 80vh;" class="absolute inset-0 object-cover w-full h-full" src="~/images/banner_2.webp" alt="Hero resmi">
+<link href="~/css/custom.css" rel="stylesheet" />
+<div class="py-36 hero-image">
+    <!-- Hero bölümü container'ı -->
+    <div class="container mx-auto flex flex-col items-center text-center">
+        <!-- Başlık -->
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 z-10">Hoş Geldiniz!</h1>
+        <!-- Açıklama -->
+        <p class="text-lg sm:text-xl lg:text-2xl mb-8 z-10">Uygulamanın harika özelliklerini keşfedin.</p>
+        <!-- Buton -->
+        <button class="bg-orange-800 hover:bg-orange-900 text-white font-bold py-2 px-10 rounded-full z-10">Başla</button>
     </div>
+</div>
+
+<section id="Projects"
+         class="text-lime-900 hover:text-lime-700 w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">
+
+    <!--   ✅ Product card 1 - Starts Here 👇 -->
+    <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+        <a class="hover:text-lime-900" href="#">
+            <img src="~/images/bckfindik3.jpg"
+                 alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
+            <div class="px-4 py-3 w-72 text-center">
+                <p class="text-lg font-bold truncate block capitalize hover:text-lime-700">Fındık 1</p>
+                <div>
+                    <p class="text-lg font-semibold cursor-auto my-3 hover:text-lime-700">149 ₺</p>
+                    <button class="bg-orange-800 hover:bg-orange-900 text-white font-bold py-2 px-10 rounded-full z-10">İncele</button>
+                </div>
+            </div>
+        </a>
+    </div>
+    <!--   🛑 Product card 1 - Ends Here  -->
+    <!--   ✅ Product card 2 - Starts Here 👇 -->
+    <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+        <a class="hover:text-lime-900" href="#">
+            <img src="~/images/bckfindik2.jpg"
+                 alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
+            <div class="px-4 py-3 w-72 text-center">
+                <p class="text-lg font-bold truncate block capitalize hover:text-lime-700">Fındık 2</p>
+                <div>
+                    <p class="text-lg font-semibold cursor-auto my-3 hover:text-lime-700">149 ₺</p>
+                    <button class="bg-orange-800 hover:bg-orange-900 text-white font-bold py-2 px-10 rounded-full z-10">İncele</button>
+                </div>
+            </div>
+        </a>
+    </div>
+    <!--   🛑 Product card 2- Ends Here  -->
+    <!--   ✅ Product card 3 - Starts Here 👇 -->
+    <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+        <a class="hover:text-lime-900" href="#">
+            <img src="~/images/bckfindik1.jpg"
+                 alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
+            <div class="px-4 py-3 w-72 text-center">
+                <p class="text-lg font-bold truncate block capitalize hover:text-lime-700">Fındık 3</p>
+                <div>
+                    <p class="text-lg font-semibold cursor-auto my-3 hover:text-lime-700">149 ₺</p>
+                    <button class="bg-orange-800 hover:bg-orange-900 text-white font-bold py-2 px-10 rounded-full z-10">İncele</button>
+                </div>
+            </div>
+        </a>
+    </div>
+    <!--   🛑 Product card 3 - Ends Here  -->
+
+</section>

@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\FindikSepeti_Remake.bundle.scp.css"
     },
     {
+      "Id": "C:\\Proje\\sepet\\wwwroot\\css\\custom.css",
+      "PackagePath": "staticwebassets\\css\\custom.css"
+    },
+    {
+      "Id": "C:\\Proje\\sepet\\wwwroot\\css\\font\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\font\\all.min.css"
+    },
+    {
       "Id": "C:\\Proje\\sepet\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -17,12 +25,120 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Proje\\sepet\\wwwroot\\images\\a1.png",
+      "PackagePath": "staticwebassets\\images\\a1.png"
+    },
+    {
+      "Id": "C:\\Proje\\sepet\\wwwroot\\images\\a3.png",
+      "PackagePath": "staticwebassets\\images\\a3.png"
+    },
+    {
+      "Id": "C:\\Proje\\sepet\\wwwroot\\images\\adafindik.png",
+      "PackagePath": "staticwebassets\\images\\adafindik.png"
+    },
+    {
+      "Id": "C:\\Proje\\sepet\\wwwroot\\images\\alimsatim.jpg",
+      "PackagePath": "staticwebassets\\images\\alimsatim.jpg"
+    },
+    {
+      "Id": "C:\\Proje\\sepet\\wwwroot\\images\\alimsatimbck.jpeg",
+      "PackagePath": "staticwebassets\\images\\alimsatimbck.jpeg"
+    },
+    {
+      "Id": "C:\\Proje\\sepet\\wwwroot\\images\\avatar.png",
+      "PackagePath": "staticwebassets\\images\\avatar.png"
+    },
+    {
       "Id": "C:\\Proje\\sepet\\wwwroot\\images\\banner_2.webp",
       "PackagePath": "staticwebassets\\images\\banner_2.webp"
     },
     {
       "Id": "C:\\Proje\\sepet\\wwwroot\\images\\banner_8.webp",
       "PackagePath": "staticwebassets\\images\\banner_8.webp"
+    },
+    {
+      "Id": "C:\\Proje\\sepet\\wwwroot\\images\\bckfindik1.jpg",
+      "PackagePath": "staticwebassets\\images\\bckfindik1.jpg"
+    },
+    {
+      "Id": "C:\\Proje\\sepet\\wwwroot\\images\\bckfindik2.jpg",
+      "PackagePath": "staticwebassets\\images\\bckfindik2.jpg"
+    },
+    {
+      "Id": "C:\\Proje\\sepet\\wwwroot\\images\\bckfindik3.jpg",
+      "PackagePath": "staticwebassets\\images\\bckfindik3.jpg"
+    },
+    {
+      "Id": "C:\\Proje\\sepet\\wwwroot\\images\\bckfindik4.jpg",
+      "PackagePath": "staticwebassets\\images\\bckfindik4.jpg"
+    },
+    {
+      "Id": "C:\\Proje\\sepet\\wwwroot\\images\\card.png",
+      "PackagePath": "staticwebassets\\images\\card.png"
+    },
+    {
+      "Id": "C:\\Proje\\sepet\\wwwroot\\images\\emre.PNG",
+      "PackagePath": "staticwebassets\\images\\emre.PNG"
+    },
+    {
+      "Id": "C:\\Proje\\sepet\\wwwroot\\images\\fabrika.jpeg",
+      "PackagePath": "staticwebassets\\images\\fabrika.jpeg"
+    },
+    {
+      "Id": "C:\\Proje\\sepet\\wwwroot\\images\\fiskobirlik.png",
+      "PackagePath": "staticwebassets\\images\\fiskobirlik.png"
+    },
+    {
+      "Id": "C:\\Proje\\sepet\\wwwroot\\images\\h_findik.jpg",
+      "PackagePath": "staticwebassets\\images\\h_findik.jpg"
+    },
+    {
+      "Id": "C:\\Proje\\sepet\\wwwroot\\images\\h_findik2.jpg",
+      "PackagePath": "staticwebassets\\images\\h_findik2.jpg"
+    },
+    {
+      "Id": "C:\\Proje\\sepet\\wwwroot\\images\\kumbetli.png",
+      "PackagePath": "staticwebassets\\images\\kumbetli.png"
+    },
+    {
+      "Id": "C:\\Proje\\sepet\\wwwroot\\images\\logo_test.png",
+      "PackagePath": "staticwebassets\\images\\logo_test.png"
+    },
+    {
+      "Id": "C:\\Proje\\sepet\\wwwroot\\images\\prf.jpg",
+      "PackagePath": "staticwebassets\\images\\prf.jpg"
+    },
+    {
+      "Id": "C:\\Proje\\sepet\\wwwroot\\images\\sepet.png",
+      "PackagePath": "staticwebassets\\images\\sepet.png"
+    },
+    {
+      "Id": "C:\\Proje\\sepet\\wwwroot\\images\\urun\\61d4a2048b51e20004664d46.png",
+      "PackagePath": "staticwebassets\\images\\urun\\61d4a2048b51e20004664d46.png"
+    },
+    {
+      "Id": "C:\\Proje\\sepet\\wwwroot\\images\\urun\\cay.jpg",
+      "PackagePath": "staticwebassets\\images\\urun\\cay.jpg"
+    },
+    {
+      "Id": "C:\\Proje\\sepet\\wwwroot\\images\\urun\\ezme.jpg",
+      "PackagePath": "staticwebassets\\images\\urun\\ezme.jpg"
+    },
+    {
+      "Id": "C:\\Proje\\sepet\\wwwroot\\images\\urun\\findikunu.jpg",
+      "PackagePath": "staticwebassets\\images\\urun\\findikunu.jpg"
+    },
+    {
+      "Id": "C:\\Proje\\sepet\\wwwroot\\images\\urun\\kavrulmus.jpg",
+      "PackagePath": "staticwebassets\\images\\urun\\kavrulmus.jpg"
+    },
+    {
+      "Id": "C:\\Proje\\sepet\\wwwroot\\images\\urun\\kiyilmis.jpg",
+      "PackagePath": "staticwebassets\\images\\urun\\kiyilmis.jpg"
+    },
+    {
+      "Id": "C:\\Proje\\sepet\\wwwroot\\images\\urun\\naturelfindik.jpg",
+      "PackagePath": "staticwebassets\\images\\urun\\naturelfindik.jpg"
     },
     {
       "Id": "C:\\Proje\\sepet\\wwwroot\\js\\site.js",
