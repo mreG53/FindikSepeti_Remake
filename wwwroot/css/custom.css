@@ -1,5 +1,49 @@
 ﻿.hero-image {
-    background-image: url('../images/banner_8.webp');
-    width: auto;
+    background-image: url('../images/banner_2.webp');
     height: 60vh;
+    width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
+.navbar {
+    /* Başlangıçta sayfanın ortasında ve gizli olacak */
+    top: 35%;
+    width: 20%;
+    transform: translate(0%, 35%);
+    transition: top 3s, width 1s;
+}
+
+.navbar-loaded {
+    /* Navbar'ın yukarı çıkmasını ve tam görünürlük kazanmasını sağlar */
+    top: 0;
+    width: 83.33%;
+    transform: translate(0, 0);
+    transition: top 3s, width 1s;
+}
+
+.navbar .txtOpa {
+    opacity: 0;
+    display: none;
+    /* Başlangıçta tüm <a> etiketlerini gizle */
+}
+
+.navbar-loaded .txtOpa {
+    opacity: 1;
+    /* Navbar-loaded olduğunda <a> etiketlerini görünür yap */
+    transition: opacity 0s 4s;
+}
+
+.other-content {
+    opacity: 0;
+    /* Başlangıçta saydam */
+    transition: opacity 1s;
+    /* Geçiş efekti tanımla */
+    transition-delay: 4s;
+    /* 5 saniye gecikme ekle */
+}
+
+    .other-content.show {
+        opacity: 1;
+        /* 5 saniye sonra saydam olmayan hale getir */
+    }
