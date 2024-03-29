@@ -1,6 +1,8 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+<link href="~/css/test.css" rel="stylesheet" />
+<link rel="stylesheet" href="~/css/styles.css" asp-append-version="true" />
 <div class="py-36 hero-image">
     <!-- Hero bölümü container'ı -->
     <div class="container mx-auto flex flex-col items-center text-center">
@@ -64,6 +66,11 @@
 
 </section>
 <script>
+    window.onload = function () {
+        // Navbar'daki belirli sınıfları kaldır
+        var navbar = document.querySelector('.navbar');
+        navbar.classList.remove('lg:w-5/6', 'w-3/4');
+    };
     window.addEventListener('load', () => {
         // 3 saniye sonra çalışacak olan kodu setTimeout ile belirtiyoruz
         setTimeout(() => {
@@ -73,6 +80,7 @@
         setTimeout(() => {
             // Sayfa yüklendiğinde navbar'a 'navbar-loaded' sınıfını ekle
             document.querySelector('.navbar').classList.add('lg:w-5/6', 'w-3/4');
+            document.querySelector('.arkaplan').classList.add('bg-orange-100');
         }, 5000);
         var txtOpaElement = document.querySelectorAll('.navbar .txtOpa');
 
@@ -84,7 +92,7 @@
             // Belirli bir süre sonra display özelliğini değiştirin
             setTimeout(function () {
                 txtOpaElement.style.display = 'flex';
-            }, 5200);
+            }, 5200); // 4 saniye gecikme
         });
         var otherContentElements = document.querySelectorAll('.other-content');
 
@@ -92,12 +100,5 @@
         otherContentElements.forEach(function (element) {
             element.classList.add('show');
         });
-        setTimeout(function () {
-            // Elementi seçin
-            var myElement = document.getElementById('arkaplan');
-
-            // Arka plan rengini değiştirin
-            myElement.style.backgroundColor = 'rgb(255, 237, 213)';
-        }, 5000);
     });
 </script>
