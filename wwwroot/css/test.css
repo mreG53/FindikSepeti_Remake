@@ -11,14 +11,12 @@
     top: 35%;
     width: 20%;
     transform: translate(0%, 35%);
-    transition: top 3s, width 1s;
 }
 
 .navbar-loaded {
     /* Navbar'ın yukarı çıkmasını ve tam görünürlük kazanmasını sağlar */
-    top: 0;
     transform: translate(0, 0);
-    transition: top 3s, width 1s;
+    transition: top 2s, width 1s;
 }
 
 .navbar .txtOpa {
