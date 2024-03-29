@@ -17,7 +17,6 @@
 .navbar-loaded {
     /* Navbar'ın yukarı çıkmasını ve tam görünürlük kazanmasını sağlar */
     top: 0;
-    width: 83.33%;
     transform: translate(0, 0);
     transition: top 3s, width 1s;
 }
